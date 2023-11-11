@@ -50,7 +50,8 @@ function reiniciar() {
     selecionarBotao.disabled = false;
     document.getElementById('lista-sorteio').textContent = '';
     document.getElementById('lista-amigos').textContent = '';
-}
+    nomeAdicionado = document.getElementById('nome-amigo').value = '';
+};
 function embaralha(lista) {
 
     let indice = lista.length
@@ -60,5 +61,5 @@ function embaralha(lista) {
         const indiceAleatorio = Math.floor(Math.random() * indice--);
         [lista[indice], lista[indiceAleatorio]] =
             [lista[indiceAleatorio], lista[indice]];
-    }
-}
+    };
+};
