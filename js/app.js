@@ -48,7 +48,7 @@ function reiniciar() {
     listaDeAmigos = [];
     let selecionarBotao = document.getElementById('sortear');
     selecionarBotao.disabled = false;
-    document.getElementById('lista-sorteio') = '';
+    document.getElementById('lista-sorteio').textContent = '';
     document.getElementById('lista-amigos').textContent = '';
 }
 function embaralha(lista) {
